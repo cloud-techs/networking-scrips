@@ -1,3 +1,3 @@
 
-test_S = f"testing  fstring on linux"
-print(test_S)
+test_s = f"testing fstring on linux"
+print(test_s)
