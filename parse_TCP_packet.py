@@ -3,7 +3,7 @@ import sys
 from struct import *
 
 try:
-    s = socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_TCP)
+    s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_TCP)
 
 except socket.error as e:
     print("Socker cant be created", e)
