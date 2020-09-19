@@ -1,1 +1,3 @@
-print("first file for networking")
+
+test_S = f"testing  fstring on linux"
+print(test_S)
